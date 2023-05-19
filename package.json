@@ -1,0 +1,26 @@
+{
+  "name": "resumeio2pdf-nodejs",
+  "version": "1.0.0",
+  "description": "Converts resumes from resume.io into PDF format.",
+  "main": "index.js",
+  "dependencies": {
+    "pdfkit": "^0.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ardeparedes/resumeio2pdf-nodejs.git"
+  },
+  "author": "Arde Paredes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ardeparedes/resumeio2pdf-nodejs/issues"
+  },
+  "homepage": "https://github.com/ardeparedes/resumeio2pdf-nodejs#readme",
+  "bin": {
+    "resumeio2pdf-nodejs": "./bin/resumeio2pdf-nodejs"
+  }
+}
